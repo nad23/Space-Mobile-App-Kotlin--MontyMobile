@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <item android:title="@string/action_search" android:id="@+id/action_search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="always" android:icon="@drawable/round_search_24"/>
+    <item android:title="@string/nav_notification" android:id="@+id/nav_notification"  app:showAsAction="always" android:icon="@drawable/round_notifications_none_24" android:actionLayout="@layout/notification_badge"/>
+
+</menu>
